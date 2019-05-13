@@ -46,6 +46,11 @@
 #include <linux/vmpressure.h>
 
 
+<<<<<<< HEAD
+=======
+#define CONFIG_CONVERT_ADJ_TO_SCORE_ADJ
+
+>>>>>>> 47ff758a09f8f... Kernel: Xiaomi kernel changes for Redmi Note5, XiaoMi 6X and Redmi Note 6Pro
 static u32 lowmem_debug_level = 1;
 static short lowmem_adj[6] = {
 	0,
@@ -74,6 +79,10 @@ static bool kill_one_more;
 			pr_info(x);			\
 	} while (0)
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 47ff758a09f8f... Kernel: Xiaomi kernel changes for Redmi Note5, XiaoMi 6X and Redmi Note 6Pro
 static bool test_tsk_lmk_waiting(struct task_struct *p)
 {
 	struct task_struct *t;
@@ -217,6 +226,10 @@ again:
 	lowmem_print(4, "lowmem_scan %lu, %x, return %lu\n",
 		     sc->nr_to_scan, sc->gfp_mask, rem);
 	rcu_read_unlock();
+<<<<<<< HEAD
+=======
+
+>>>>>>> 47ff758a09f8f... Kernel: Xiaomi kernel changes for Redmi Note5, XiaoMi 6X and Redmi Note 6Pro
 	return rem;
 }
 

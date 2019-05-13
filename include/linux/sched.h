@@ -2492,6 +2492,10 @@ TASK_PFA_TEST(SPEC_SSB_FORCE_DISABLE, spec_ssb_force_disable)
 TASK_PFA_SET(SPEC_SSB_FORCE_DISABLE, spec_ssb_force_disable)
 TASK_PFA_TEST(LMK_WAITING, lmk_waiting)
 TASK_PFA_SET(LMK_WAITING, lmk_waiting)
+<<<<<<< HEAD
+=======
+
+>>>>>>> 47ff758a09f8f... Kernel: Xiaomi kernel changes for Redmi Note5, XiaoMi 6X and Redmi Note 6Pro
 TASK_PFA_TEST(SPEC_IB_DISABLE, spec_ib_disable)
 TASK_PFA_SET(SPEC_IB_DISABLE, spec_ib_disable)
 TASK_PFA_CLEAR(SPEC_IB_DISABLE, spec_ib_disable)
