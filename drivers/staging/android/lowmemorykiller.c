@@ -45,7 +45,6 @@
 #include <linux/notifier.h>
 #include <linux/vmpressure.h>
 
-#define CONFIG_CONVERT_ADJ_TO_SCORE_ADJ
 
 static u32 lowmem_debug_level = 1;
 static short lowmem_adj[6] = {
@@ -74,8 +73,6 @@ static bool kill_one_more;
 		if (lowmem_debug_level >= (level))	\
 			pr_info(x);			\
 	} while (0)
-
-
 
 static bool test_tsk_lmk_waiting(struct task_struct *p)
 {
@@ -208,7 +205,6 @@ again:
 			     other_free * (long)(PAGE_SIZE / 1024));
 		lowmem_deathpending_timeout = jiffies + HZ;
 		rem += selected_tasksize;
-
 	}
 
 	if (kill_one_more) {

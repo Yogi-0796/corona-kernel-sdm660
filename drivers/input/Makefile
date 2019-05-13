@@ -36,4 +36,3 @@ obj-y				+= fingerprint/
 
 obj-$(CONFIG_INPUT_HALL_SENSOR)	+= hall.o
 obj-$(CONFIG_INPUT_HALL_SENSOR_E7S)	+= hall_e7s.o
->>>>>>> 47ff758a09f8f... Kernel: Xiaomi kernel changes for Redmi Note5, XiaoMi 6X and Redmi Note 6Pro

@@ -1,9 +1,5 @@
-<<<<<<< HEAD
-/* Copyright (c) 2012-2019 The Linux Foundation. All rights reserved.
-=======
 /* Copyright (c) 2012-2019, The Linux Foundation. All rights reserved.
  * Copyright (C) 2019 XiaoMi, Inc.
->>>>>>> 47ff758a09f8f... Kernel: Xiaomi kernel changes for Redmi Note5, XiaoMi 6X and Redmi Note 6Pro
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License version 2 and

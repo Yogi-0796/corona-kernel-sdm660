@@ -236,8 +236,6 @@ source "drivers/input/touchscreen/Kconfig"
 
 source "drivers/input/misc/Kconfig"
 
-<<<<<<< HEAD
-=======
 source "drivers/input/sensors/bmi160/Kconfig"
 
 source "drivers/input/fingerprint/Kconfig"
@@ -246,7 +244,6 @@ source "drivers/input/fingerprint/gf3208/Kconfig"
 
 source "drivers/input/fingerprint/gf3258/Kconfig"
 
->>>>>>> 47ff758a09f8f... Kernel: Xiaomi kernel changes for Redmi Note5, XiaoMi 6X and Redmi Note 6Pro
 endif
 
 menu "Hardware I/O ports"

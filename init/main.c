@@ -538,8 +538,6 @@ asmlinkage __visible void __init start_kernel(void)
 	page_alloc_init();
 
 	pr_notice("Kernel command line: %s\n", boot_command_line);
-<<<<<<< HEAD
-=======
 	/* parameters may set static keys */
 	jump_label_init();
 	p = NULL;
@@ -556,7 +554,6 @@ asmlinkage __visible void __init start_kernel(void)
 	{
 		is_poweroff_charge = true;
 	}
->>>>>>> 47ff758a09f8f... Kernel: Xiaomi kernel changes for Redmi Note5, XiaoMi 6X and Redmi Note 6Pro
 	parse_early_param();
 	after_dashes = parse_args("Booting kernel",
 				  static_command_line, __start___param,
