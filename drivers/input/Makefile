@@ -28,4 +28,12 @@ obj-$(CONFIG_INPUT_MISC)	+= misc/
 obj-$(CONFIG_INPUT_APMPOWER)	+= apm-power.o
 obj-$(CONFIG_INPUT_KEYRESET)	+= keyreset.o
 obj-$(CONFIG_INPUT_KEYCOMBO)	+= keycombo.o
+<<<<<<< HEAD
 
+=======
+obj-y   += sensors/bmi160/
+obj-y				+= fingerprint/
+
+obj-$(CONFIG_INPUT_HALL_SENSOR)	+= hall.o
+obj-$(CONFIG_INPUT_HALL_SENSOR_E7S)	+= hall_e7s.o
+>>>>>>> 47ff758a09f8f... Kernel: Xiaomi kernel changes for Redmi Note5, XiaoMi 6X and Redmi Note 6Pro
