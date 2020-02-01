@@ -1,1 +1,0 @@
-# corona-kernel-sdm660
